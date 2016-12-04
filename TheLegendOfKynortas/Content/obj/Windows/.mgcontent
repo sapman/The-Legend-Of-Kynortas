@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Objects/colset1.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Objects/cupboard1.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Objects/table1.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Objects/table2.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Objects/WoodenBed.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Objects/WoodenStairs.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Objects/WoodenStairsDown.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Objects/WoodenWindow.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenFloor.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenFloor2.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenWall.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenWall2.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenWallTop.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenWallTop2.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenWallTopCornerBottomLeft.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenWallTopCornerBottomRight.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenWallTopCornerTopLeft.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenWallTopCornerTopRight.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenWallTopHorizontal.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/Tiles/WoodenWallTopVertical.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/ElderGreen.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/ElderRed.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/ElderYellow.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/GenericChar.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/PlayerWalk.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/DialogBox.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/ElderBlue.png</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/font12.spritefont</File>
+    <File>C:/Users/Mosacho/Documents/Visual Studio 2010/Projects/My Projects/MonoGames/TheLegendOfKynortas/TheLegendOfKynortas/Content/font32.spritefont</File>
+  </SourceFiles>
+</SourceFileCollection>

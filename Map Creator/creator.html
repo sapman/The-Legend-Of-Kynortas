@@ -1,0 +1,84 @@
+<html ng-app="app">
+
+<head>
+    <title>The Legend Of Kynortas Map Creator</title>
+    <script type=application/javascript src="resources/jquery-3.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+    <script type=application/javascript src="resources/angular.min.js"></script>
+    <script type=application/javascript src="resources/angular-dragdrop.min.js"></script>
+    <script type=application/javascript src="resources/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type=application/javascript src="creator.js"></script>
+
+    <link rel="stylesheet" href="resources/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="creator.css">
+</head>
+
+<body class="container" ng-controller="ctrl">
+    <br>
+    <div class="row">
+        <div class="jumbotron">
+            <h1><small>The Legend Of</small> Kynortas Map Creator</h1>
+            <h4><small>By SapMan</small></h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 alert alert-info">
+            <div class="row">
+                <div class="col-md-6">
+                    <u><h3>Map Vitals</h3></u>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="txt_CretName">Your Name</label>
+                        <input type="text" class="form-control" id="txt_CretName" placeholder="Who are you?" ng-model="cretName">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_name">Name</label>
+                        <input type="text" class="form-control" id="txt_name" placeholder="Your map name..." ng-model="name">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="txt_width">Width</label>
+                        <input type="number" max="55" min="1" class="form-control" id="txt_width" placeholder="Your map width..." ng-model="width" value="0" ng-change="recalc()">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_height">Height</label>
+                        <input type="number" max="22" min="1" class="form-control" id="txt_height" placeholder="Your map height..." ng-model="height" value="0" ng-change="recalc()">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7 col-md-offset-1 scroll alert alert-danger">
+            <h1>Here will come the tiles</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 alert alert-success">
+            <div id="map" class="row scroll-all">
+                <div ng-repeat="line in Hindex">
+                    <img class="cell" ng-repeat="cell in Windex" />
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h3>Output:</h3>
+        <pre class="code">
+            // Created by {{cretName}} at {{now | date:'dd/MM/yyyy'}}
+            public static TileMap Create{{name}}() {
+                int[,] tmpMap = new int[,] { {5,5,5,5,5,5},
+                                             {5,3,3,3,3,5},
+                                             {5,1,1,1,1,5},
+                                             {5,1,1,1,5,5},
+                                             {5,5,5,5,5,0}};
+            }
+        </pre>
+    </div>
+
+</body>
+
+</html>
